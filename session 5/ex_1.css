@@ -1,0 +1,25 @@
+span{
+	color: red;
+}
+
+h1{
+	padding-left: 200px;
+}
+
+div{
+	padding-left: 50px;
+}
+
+.dinhhinh{
+	border: solid 1px #BBBABA;
+	border-radius: 5px;
+	padding: 10px 0px;
+}
+
+.color{
+	background: #267CE7;
+	color: #ffffff;
+	border: solid 1px #267CE7;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
