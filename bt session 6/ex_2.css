@@ -1,0 +1,91 @@
+* {
+	margin: 10px;
+	padding: 0;
+}
+
+body {
+	height: 900px;
+	background-image: linear-gradient(white, #FE971D)
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+	border: solid 1px #000000;
+	border-radius: 20px;
+	/*padding: 10px;*/
+	box-shadow: 3px 3px 2px black;
+	background: white;
+}
+
+img {
+	padding-top: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+.font1 {
+	padding-top: 20px;
+	float: right;
+	font-family: Arial;
+	font-size: 35px;
+	color: #E67D16;
+	text-shadow: 2px 2px 1px black;
+}
+
+span {
+	font-family: Arial;
+	font-size: 22px;
+	color: green;
+	text-transform: capitalize;
+	text-shadow: none;
+}
+
+.font2 {
+	font-family: Arial;
+	padding-top: 80px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+ul {
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+a {
+	color: #34DD34;
+}
+
+.font3 {
+	font-family: Arial;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.font4 {
+	font-family: Arial;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.font5 {
+	font-family: Arial;
+	padding-top: 20px;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.font6 {
+	font-family: Arial;
+	padding-top: 20px;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.font7 {
+	font-family: Arial;
+	padding-top: 20px;
+	font-size: 20px;
+}
