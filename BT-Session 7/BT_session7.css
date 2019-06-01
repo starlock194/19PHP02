@@ -1,0 +1,344 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #5C5959;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	height: 169px;
+	/*border: solid 1px #000000;*/
+}
+
+.hinh {
+	width: 150px;
+	height: 80px;
+}
+
+.menu {
+	font-family: Arial;
+	/*height: 120px;*/
+}
+
+.menu ul {
+   list-style-type: none;
+   text-align: center;
+   padding-left: 4px;
+}
+
+.menu li {
+   display: inline-block;
+   width: 11.191%;
+   height: 85px;
+   line-height: 85px;
+   margin-left: -5px;
+}
+
+.menu a {
+	background: #c02519;
+  	text-decoration: none;
+ 	color: #fff;
+  	display: block;
+}
+
+.menu a:hover {
+ 	background: #ffffff;
+  	color: #000000;
+}
+
+section {
+	height: 1600px;
+	padding-top: 10px;
+	/*border: solid 1px #000000;*/
+}
+
+.banner {
+	height: 500px;
+	border-bottom: solid 1px #E5E1E1;
+	/*border: solid 1px #000000;*/
+}
+
+.banner1 {
+	width: 49%;
+	float: left;
+	/*border: solid 1px #000000;*/
+}
+
+span {
+	color: #c02519;
+	text-decoration: underline;
+}
+
+.hinh1 {
+	margin-top: 10px;
+	width: 590px;
+	height: 400px;
+}
+
+.banner2 {
+	width: 25%;
+	height: 480px;
+	float: left;
+	/*border: solid 1px #000000;*/
+}
+
+.hinh2 {
+	width: 100px;
+	height: 100px;
+}
+
+.banner2 ul {
+	padding-top: 15px;
+   list-style-type: none;
+/*   padding-left: 5px;*/
+}
+
+.banner2 li {
+   padding: 10px;
+}
+
+h3 {
+	color: #c02519;
+	float: right;
+}
+
+.xem {
+	color: #c02519;
+	text-decoration: underline;
+}
+
+.banner3 {
+	width: 24%;
+	height: 480px;
+	float: right;
+	/*border: solid 1px #000000;*/
+}
+
+.banner3 ul {
+	padding-top: 15px;
+   list-style-type: none;
+/*   padding-left: 5px;*/
+}
+
+.banner3 li {
+   padding: 10px;
+   border-top: solid 1px #E5E1E1;
+}
+
+.banner3 a {
+	color: #449FC9;
+}
+
+.banner3 .li1 {
+	border-top: none;
+}
+
+h2 {
+	padding-top: 10px;
+}
+
+.hinh3 {
+	width: 180px;
+	height: 140px;
+}
+
+.main {
+	height: 270px;
+	border-bottom: solid 1px #E5E1E1;
+}
+
+.main ul {
+	list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main li {
+	width: 220px;
+    display: inline-block;
+    /*padding: 1px;*/
+}
+
+.main li a {
+	color: #c02519;
+	text-decoration: none;
+}
+
+.m {
+	padding-top: 10px;
+	float: right;
+	color: #449FC9;
+}
+
+.new {
+	height: 1000px;
+}
+
+.new1 {
+	height: 500px;
+	border-bottom: solid 1px #E5E1E1;
+}
+
+.hinh4 {
+	width: 150px;
+	height: 100px;
+}
+
+.new .image1 {
+	width: 32%;
+	height: 500px;
+	float: left;
+	/*border: solid 1px #000000;*/
+}
+
+.new .image1 ul {
+	padding-top: 30px;
+    list-style-type: none;
+/*   padding-left: 5px;*/
+}
+
+.new .image1 li {
+   padding-top: 15px;
+   border-top: solid 1px #E5E1E1;
+}
+
+.image1 h3 {
+	padding-right: 80px;
+}
+
+.new .image2 {
+	width: 34%;
+	height: 500px;
+	float: left;
+	padding-left: 20px;
+	/*border: solid 1px #000000;*/
+}
+
+.new .image2 ul {
+	padding-top: 30px;
+    list-style-type: none;
+/*   padding-left: 5px;*/
+}
+
+.new .image2 li {
+   padding-top: 15px;
+   border-top: solid 1px #E5E1E1;
+}
+
+.image2 h3 {
+	padding-right: 80px;
+}
+
+.new .image3 {
+	/*width: 32%;*/
+	height: 500px;
+	float: right;
+	/*border: solid 1px #000000;*/
+}
+
+.new .image3 ul {
+	padding-top: 30px;
+    list-style-type: none;
+/*   padding-left: 5px;*/
+}
+
+.new .image3 li {
+   padding-top: 15px;
+   border-top: solid 1px #E5E1E1;
+}
+
+.image3 h3 {
+	padding-right: 80px;
+}
+
+.new2 {
+	height: 300px;
+	border-bottom: solid 1px #E5E1E1;
+}
+
+.new2 .list1 {
+	height: 300px;
+	width: 28%;
+	/*border-bottom: solid 1px #E5E1E1;*/
+	float: left;
+}
+
+.new2 .list1 ul {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.new2 .list1 li {
+	padding: 20px;
+}
+
+.new2 .list2 {
+	height: 300px;
+	width: 27%;
+	float: left;
+	/*border-bottom: solid 1px #E5E1E1;*/
+}
+
+.new2 .list2 ul {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.new2 .list2 li {
+	padding: 20px;
+}
+
+.new2 .list3 {
+	height: 300px;
+	width: 27%;
+	float: left;
+	/*border-bottom: solid 1px #E5E1E1;*/
+}
+
+.new2 .list3 ul {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.new2 .list3 li {
+	padding: 20px;
+}
+
+.new2 .list4 {
+	height: 300px;
+	/*width: 25%;*/
+	float: right;
+	/*border-bottom: solid 1px #E5E1E1;*/
+}
+
+.new2 .list4 ul {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.new2 .list4 li {
+	padding: 20px;
+}
+
+.new2 a {
+	color: #928D8D;
+}
+
+footer {
+	height: 100px;
+	padding-top: 50px;
+	/*border: solid 1px #000000;*/
+}
+
+.small {
+	float: right;
+}
+
+.hinh5 {
+	width: 30px;
+	height: 30px;
+}
