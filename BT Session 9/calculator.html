@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+	
+	<table>
+		<tr>
+			<td colspan="8"> <input type="text" id="HienThi"> </td>
+		</tr>
+		<tr>
+			<td><input class="btn" type="button" value="7" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="8" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="9" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="/" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="<-" onclick="HienThi.value=HienThi.value.substr(0,HienThi.value.length-1)"></td>
+			<td><input class="btn" type="button" value="%" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="(" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value=")" onclick="HienThi.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input class="btn" type="button" value="4" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="5" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="6" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="*" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="C" onclick="HienThi.value=''"></td>
+			<td><input class="btn" type="button" value="căn 2" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="^" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="!" onclick="HienThi.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input class="btn" type="button" value="1" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="2" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="3" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="+" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="sin" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="tan" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="log" onclick="HienThi.value+=this.value"></td>
+			<td rowspan="2"><input class="btn" id="spec1" type="button" value="=" onclick="HienThi.value = eval(HienThi.value)"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input class="btn" id="spec" type="button" value="0" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="." onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="-" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="cos" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="cot" onclick="HienThi.value+=this.value"></td>
+			<td><input class="btn" type="button" value="e" onclick="HienThi.value+=this.value"></td>
+		</tr>
+	</table>
+</body>
+</html>

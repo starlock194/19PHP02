@@ -1,0 +1,29 @@
+table {
+	background: #333;
+	margin: 0 auto;
+	width: 480px;
+	height: 250px;
+}
+
+#HienThi {
+	width: 480px;
+	height: 40px;
+	margin-top: 0px;
+}
+
+.btn {
+	width: 56px;
+	height: 40px;
+}
+
+#spec {
+	width: 116px;
+	height: 40px;
+}
+
+#spec1 {
+	width: 56px;
+	height: 88px;
+	background-color: green;
+	border: green;
+}
